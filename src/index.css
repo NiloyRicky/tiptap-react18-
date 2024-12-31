@@ -1,0 +1,95 @@
+*{
+    padding: 0 ;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-width: 100vw;
+    overflow: hidden;
+    max-height: 100vh;
+}
+.random{
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:12px;
+}
+.btnContainer{
+    display: flex;
+    justify-content: center;
+    gap:12px;
+    align-items: center;
+    margin:12px 0;
+}
+button{
+    
+    padding: 1rem 1rem;
+    border: none;
+    border-bottom:0.5px solid gainsboro ;
+    color:black;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    translate: all ease in ;
+}
+button:hover{
+    border-bottom: 1px solid black;
+    translate: all ease in ;
+}
+img {
+    max-width: 500px;
+    max-height: 500px;
+    transform: translate(-50%,-50%);
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+    box-shadow: 2px 5px -8px black;
+}
+.drag-handle{
+   cursor:grab;
+   font-size: 14px;
+   user-select: none;
+   display: inline block;
+   padding: 5px;
+}
+.drag-handle :active{
+    cursor: grabbing;
+    background-color: red;
+}
+.ptag{
+    padding:2rem ;
+     color:red"
+}
+.container{
+    position: relative;
+}
+.input_container{
+    margin: 19px 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap:8px;
+}
+.input_field{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-direction: column;
+    gap: 5px;
+}
+input{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 1px solid grey;
+
+
+}
+

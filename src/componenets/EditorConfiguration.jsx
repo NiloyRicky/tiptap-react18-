@@ -4,7 +4,7 @@ import { useEditor, EditorContent } from '@tiptap/react';
 import StarterKit from '@tiptap/starter-kit';
 import Subscript from '@tiptap/extension-subscript';
 import Superscript from '@tiptap/extension-superscript';
-import { ChemicalArrow } from './CustomArrowExtension'; // Custom extension for arrows
+import { ChemicalArrow } from './CustomArrowExtension'; //importing chemiscall arrows from filr
 import { FaArrowRight } from "react-icons/fa";
 import { FaArrowDown } from "react-icons/fa6";
 import { FaArrowLeft } from "react-icons/fa6";
